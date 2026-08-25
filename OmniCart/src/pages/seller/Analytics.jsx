@@ -23,7 +23,7 @@ export default function Analytics() {
 					{bars.map((b, i) => (
 						<div key={i} className="flex-1 flex flex-col items-center gap-2">
 							<div
-								className="w-full rounded-t-lg bg-gradient-to-t from-brand-500 to-accent-400 transition-all"
+									className="w-full rounded-t-lg bg-linear-to-t from-brand-500 to-accent-400 transition-all"
 								style={{ height: `${b}%` }}
 							/>
 							<span className="text-xs text-slate-400">

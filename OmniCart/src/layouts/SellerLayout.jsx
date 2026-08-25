@@ -12,7 +12,7 @@ export default function SellerLayout() {
 	return (
 		<DashboardLayout
 			title="Seller Hub"
-			gradient="bg-gradient-to-b from-brand-700 to-brand-900"
+			gradient="bg-linear-to-b from-brand-700 to-brand-900"
 			navItems={navItems}
 			userLabel="Seller"
 		/>
