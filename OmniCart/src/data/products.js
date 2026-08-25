@@ -1,0 +1,62 @@
+export const products = [
+	{
+		id: 1,
+		name: "Quantum Pro Laptop",
+		price: 35000,
+		category: "Electronics",
+		rating: 4.8,
+		reviews: 214,
+		image: "https://picsum.photos/seed/laptop/400/400",
+		badge: "Bestseller",
+	},
+	{
+		id: 2,
+		name: "Aurora Smartphone X",
+		price: 15000,
+		category: "Electronics",
+		rating: 4.6,
+		reviews: 189,
+		image: "https://picsum.photos/seed/phone/400/400",
+		badge: "New",
+	},
+	{
+		id: 3,
+		name: "Nimbus Wireless Earbuds",
+		price: 3200,
+		category: "Electronics",
+		rating: 4.5,
+		reviews: 96,
+		image: "https://picsum.photos/seed/earbuds/400/400",
+	},
+	{
+		id: 4,
+		name: "Urban Cotton Tee",
+		price: 650,
+		category: "Fashion",
+		rating: 4.3,
+		reviews: 54,
+		image: "https://picsum.photos/seed/tee/400/400",
+	},
+	{
+		id: 5,
+		name: "Organic Rice Bundle",
+		price: 1200,
+		category: "Food",
+		rating: 4.9,
+		reviews: 312,
+		image: "https://picsum.photos/seed/rice/400/400",
+		badge: "Fresh",
+	},
+	{
+		id: 6,
+		name: "Heirloom Tomato Pack",
+		price: 480,
+		category: "Agriculture",
+		rating: 4.7,
+		reviews: 78,
+		image: "https://picsum.photos/seed/tomato/400/400",
+	},
+];
+
+export const formatPrice = (value) =>
+	"₱" + value.toLocaleString("en-PH");
